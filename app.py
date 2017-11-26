@@ -15,7 +15,6 @@ app.debug = True
 def index():
     return {'response': 'ok'}
 
-
 @app.route('/sunset')
 def is_dark():
 	response = requests.get("https://api.sunrise-sunset.org/json?lat=51.8423973&lng=4.6395056&formatted=0")
