@@ -13,7 +13,7 @@ app.debug = True
 
 @app.route('/')
 def index():
-    return {'response': 'ok'}
+    return {'response': 'ok - live'}
 
 @app.route('/sunset')
 def is_dark():
